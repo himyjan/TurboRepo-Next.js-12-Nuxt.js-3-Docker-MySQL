@@ -31,6 +31,8 @@
     "@angular-devkit/build-angular": "^14.2.4",
     "@angular/cli": "^14.2.4",
     "@angular/compiler-cli": "^14.2.4",
+    "eslint": "^8.24.0",
+    "eslint-config-custom-analog": "*",
     "jsdom": "^20.0.1",
     "typescript": "^4.8.4",
     "vite": "^3.1.4",
