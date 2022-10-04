@@ -1,0 +1,10 @@
+module.exports = {
+  extends: ['@nuxtjs/eslint-config-typescript', 'turbo', 'prettier'],
+  rules: {
+    'vue/multi-word-component-names': 0,
+    'vue/no-multiple-template-root': 0,
+    semi: [1, 'always'],
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': ['error', 'only-multiline'],
+  },
+};
