@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Nuxt.js",
-  // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./base-nuxtjs.json"
+  "extends": "./base-nuxtjs.json",
+  "exclude": ["node_modules"]
 }
