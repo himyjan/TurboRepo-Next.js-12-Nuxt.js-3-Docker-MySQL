@@ -35,6 +35,7 @@ onMounted(() => {
 
 <template>
   <div class="">
+    <NuxtWelcome />
     <div class="text-orange-500 text-[50px]">index</div>
     <div class="text-[#000000] text-[30px]">
       {{ num1 }}
